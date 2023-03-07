@@ -7,7 +7,7 @@ const blogSchema = new Schema({
     published: Boolean,
     author: String,
     content: String,
-    tags: [string],
+    tags: [String],
     createdAt: Date,
     updatedAt: Date,
     comments: [{
